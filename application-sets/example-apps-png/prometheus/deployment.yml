@@ -2,16 +2,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-deployment
+  name: simple-web-png-1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: trivial-go-web-app
+      app: web-png-1
   template:
     metadata:
       labels:
-        app: trivial-go-web-app
+        app: simple-web-png1
     spec:
       containers:
       - name: webserver-simple
