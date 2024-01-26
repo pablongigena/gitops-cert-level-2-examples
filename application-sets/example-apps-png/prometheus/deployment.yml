@@ -7,7 +7,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: web-png-1
+      app: simple-web-png-1
   template:
     metadata:
       labels:
