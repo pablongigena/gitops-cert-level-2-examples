@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: simple-web-png1
+        app: simple-web-png-1
     spec:
       containers:
       - name: webserver-simple
