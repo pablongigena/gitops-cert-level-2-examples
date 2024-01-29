@@ -1,0 +1,20 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-fusion-v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-fusion-v1
+  template:
+    metadata:
+      labels:
+        app: web-fusion-v1
+    spec:
+      containers:
+      - name: web-fusion-v1
+        image: docker.io/pngigena/fusion-web-cicd:latest
+        ports:
+        - containerPort: 80
