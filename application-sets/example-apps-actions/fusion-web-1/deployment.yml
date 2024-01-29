@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: web-fusion-v1
-        image: docker.io/pngigena/fusion-web-cicd:2
+        image: docker.io/pngigena/fusion-web-cicd:3
         ports:
         - containerPort: 80
