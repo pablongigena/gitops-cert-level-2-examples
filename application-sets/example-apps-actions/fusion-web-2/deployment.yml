@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fusion-cicd2
-        image: docker.io/pngigena/fusion-cicd:2
+        image: docker.io/pngigena/fusion-cicd2:2
         ports:
         - containerPort: 80
