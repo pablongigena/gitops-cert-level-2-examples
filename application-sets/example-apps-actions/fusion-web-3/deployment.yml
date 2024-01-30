@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fusion-cicd2
+  name: fusion-cicd3
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fusion-cicd2
+      app: fusion-cicd3
   template:
     metadata:
       labels:
-        app: fusion-cicd2
+        app: fusion-cicd3
     spec:
       containers:
-      - name: fusion-cicd2
-        image: docker.io/pngigena/fusion-cicd2:latest
+      - name: fusion-cicd3
+        image: docker.io/pngigena/fusion-cicd3:latest
         ports:
         - containerPort: 80
